@@ -5,6 +5,7 @@ def find_element_index(array, value_to_find)
       return count
     end 
     nil
+  end 
   #array.index {|x| x == "value_to_find" }
   #binding.pry
   
