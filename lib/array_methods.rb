@@ -1,7 +1,7 @@
 def find_element_index(array, value_to_find)
   
-  array.index {|x| x == "value_to_find"}
-  return x
+  array.find_index {|x| x == "value_to_find"}
+  
 end
 
 def find_max_value(array)
