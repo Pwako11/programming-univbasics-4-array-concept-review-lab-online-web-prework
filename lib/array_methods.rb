@@ -2,10 +2,9 @@ def find_element_index(array, value_to_find)
   
   array.length.times do |count|
     if array[count] == value_to_find
-      else if  
-      array[count] == value_to_find
-      return count
+      count
     end
+    nil
   end 
   #array.index {|x| x == "value_to_find" }
   #binding.pry
