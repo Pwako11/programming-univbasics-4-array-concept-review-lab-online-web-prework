@@ -1,5 +1,5 @@
 def find_element_index(array, value_to_find)
-  scale.each { |value_to_find| value_to_find == "2" }
+  array.each { |x| x == "2" }
 end
 
 def find_max_value(array)
