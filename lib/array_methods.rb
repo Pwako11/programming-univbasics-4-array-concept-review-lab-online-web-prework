@@ -1,4 +1,4 @@
-def find_element_index(array, number)
+scadef find_element_index(array, number)
   scale.index { |x| x == "2" }
 end
 
